@@ -25,9 +25,9 @@ code function and intergrity, for Python and Rust.
 
 | Time Complexity             | Color                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| O(1), O(log n) | ![#00ff9f](https://placehold.co/10/00ff9f/00ff9f.png) #00ff9f |
-| O(n log n) | ![#00FFFF](https://placehold.co/10/00FFFF/00FFFF.png) #00FFFF |
-| ≤ O(n²)  | ![#FF69B4](https://placehold.co/10/FF69B4/FF69B4.png) #FF69B4 |
+| O(1), O(log n) | ![#1CF423](https://placehold.co/10/00ff9f/1cf423.png) #1CF423 |
+| O(n log n) | ![#F98FAD](https://placehold.co/10/f98fad/f98fad.png) #F98FAD |
+| ≤ O(n²)  | ![#FF4846](https://placehold.co/10/ff4846/ff4846.png) #FF4846 |
 
 ## Screenshots
 
