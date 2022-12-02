@@ -46,6 +46,8 @@ code function and integrity, for Python and Rust.
 
 - ~~Language Detection~~ (Done)
 
+- Use Click For CLI
+
 ## Lessons Learned
 
 ## License
