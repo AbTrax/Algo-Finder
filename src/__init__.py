@@ -1,4 +1,4 @@
-"""Tool for getting the best Space_Complexity of a Algorithm"""
+"""Tool for getting the best Time Space Complexity of a Algorithm"""
 
 import argparse
 import ast
