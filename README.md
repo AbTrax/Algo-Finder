@@ -4,7 +4,7 @@
 
 An Open source code formatter that uses machine learning to determine the **time and space-complexity** of your algorithm
 and its efficiency and recommends a faster and more efficient algorithms of a lower time, and if chosen space-complexity whilst keeping
-code function and integrity, for Python and Rust(planned).
+code function and integrity, for Python and Rust (Planned).
 
 ## Features
 
