@@ -1,4 +1,9 @@
-"""Tool for getting the best Time Space Complexity of a Algorithm"""
+"""Tool for getting the best Time Space Complexity of a Algorithm
+#TODO : add ranges to the complexity calculation 
+#TODO : Add Click to the project or better arg parse 
+#TODO : use names to format the changes
+#TODO : add a better way to get the complexity of the algorithm or train ML to get the complexity
+"""
 
 import argparse
 import ast
