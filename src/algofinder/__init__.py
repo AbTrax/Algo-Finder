@@ -2,13 +2,13 @@
 
 import argparse
 import ast
-
+import io
 
 # Helper function to count the number of occurrences of a given token in the AST
 def count_tokens(ast_node, token):
     token_count = 0
     for node in ast.walk(ast_node):
-        if isinstance(node, token.Token):
+        if isinstance(node, ast.AST):
             token_count += 1
     return token_count
 
@@ -19,7 +19,7 @@ def compute_time_complexity(ast_node):
     loop_count = count_tokens(ast_node, ast.For) + count_tokens(ast_node, ast.While)
     conditional_count = count_tokens(ast_node, ast.If)
     # The time complexity is O(loop_count * conditional_count)
-    return loop_count * conditional_count
+    return loop_count + conditional_count
 
 
 # Helper function to compute the space complexity of an algorithm from its AST

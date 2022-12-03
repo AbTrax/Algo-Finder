@@ -108,3 +108,6 @@ def binarySearch(arr, x):
         else:
             return mid
     return -1
+
+
+
