@@ -35,6 +35,30 @@ code function and integrity, for Python and Rust (Planned).
 python -m algofinder <path_to_python_file>
 ```
 
+## Training the Model
+
+To train the model, you need a CSV file containing the training data. The CSV file should have the following columns:
+
+- `num_loops`: The number of loop statements in the algorithm.
+- `num_conditionals`: The number of conditional statements in the algorithm.
+- `num_variables`: The number of variables in the algorithm.
+- `num_arrays`: The number of arrays in the algorithm.
+- `complexity`: The complexity of the algorithm.
+
+You can train the model using the following command:
+
+```bash
+python -m algofinder train <path_to_csv_file>
+```
+
+## Analyzing Complexity
+
+To analyze the complexity of the algorithms in a Python file, use the following command:
+
+```bash
+python -m algofinder analyze <path_to_python_file>
+```
+
 ## Roadmap
 
 - Improved CLI

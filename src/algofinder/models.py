@@ -28,3 +28,22 @@ def load_model(file_path):
         return joblib.load(file_path)
     else:
         return None
+
+def predict_complexity(ast_node, model):
+    # Extract features from the AST node
+    num_loops = count_tokens(ast_node, ast.For) + count_tokens(ast_node, ast.While)
+    num_conditionals = count_tokens(ast_node, ast.If)
+    num_variables = count_tokens(ast_node, ast.Name)
+    num_arrays = count_tokens(ast_node, ast.Subscript)
+    
+    # Create a DataFrame with the features
+    features = pd.DataFrame({
+        'num_loops': [num_loops],
+        'num_conditionals': [num_conditionals],
+        'num_variables': [num_variables],
+        'num_arrays': [num_arrays]
+    })
+    
+    # Predict the complexity using the pre-trained model
+    complexity = model.predict(features)[0]
+    return complexity
