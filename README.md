@@ -13,6 +13,7 @@ code function and integrity, for Python and Rust (Planned).
 - Smart variable detection to allow ease of converting.
 - Programming language detection.
 - Revert back to previous algorithm if code errors do occur.
+- Machine learning-based complexity prediction.
 
 ## Demo
 
@@ -31,7 +32,7 @@ code function and integrity, for Python and Rust (Planned).
 ## Usage/Examples
 
 ```bash
-
+python -m algofinder <path_to_python_file>
 ```
 
 ## Roadmap
